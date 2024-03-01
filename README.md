@@ -20,7 +20,7 @@
 
 В папке nginx необходимо создать папку ssl и положить в папку сертификат и ключ
 
-В файле nginx/defailt.conf необходимо настроить ssl соедение для server 443
+В файле nginx/defailt.conf необходимо настроить ssl соединение для секции server listen 443
 server_name domen; - указать домен
 ssl_certificate /etc/nginx/ssl/domen.crt; - указать имя сертификата
 ssl_certificate_key /etc/nginx/ssl/domen.key; - указать имя ключа
