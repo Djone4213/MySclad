@@ -28,6 +28,7 @@ ssl_certificate_key /etc/nginx/ssl/domen.key; - указать имя ключа
 ## Установка
 
 docker-compose build
+
 docker-compose up -d
 
 ## Получение дескриптора приложения для apps.moysclad.ru
